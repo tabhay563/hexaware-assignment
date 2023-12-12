@@ -22,4 +22,4 @@ I have implemented apis to get, add and delete the user and displayed them in fr
      - Mongo Db
      - Node Js
  # How Website is looking
- ![image][file:///home/abhay/Pictures/Screenshot_20231212_234917.png]
+ ![image](file:///home/abhay/Pictures/Screenshot_20231212_234917.png)
