@@ -14,3 +14,12 @@ I have implemented apis to get, add and delete the user and displayed them in fr
   - ``` cd Backend ```
   - ``` npm i ```
   - ``` npm run dev ```
+## Tech Stack Used
+- Frontend
+     - React Js
+- Backend
+     - Express Js
+     - Mongo Db
+     - Node Js
+ # How Website is looking
+ ![image][file:///home/abhay/Pictures/Screenshot_20231212_234917.png]
