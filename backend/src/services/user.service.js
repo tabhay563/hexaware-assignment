@@ -3,7 +3,7 @@ const User = require('../models/user.model')
 
 const createUser = async (userData) =>{
     try {
-        let {name,email,username,phone,company} = userData
+        let {name,email,company} = userData
 
         const userAlreadyExist = await User.findOne({email})
 
@@ -14,8 +14,6 @@ const createUser = async (userData) =>{
         const user  = new User({
             name,
             email,
-            username,
-            phone,
             company
         
         })
@@ -26,6 +24,7 @@ const createUser = async (userData) =>{
         throw new Error(err.message)
     }
 }
+
 
 const getAllUsers = async () =>{
     try{
@@ -55,6 +54,7 @@ const deleteUser =async (id) => {
         throw new Error(e.message)
     }
 }
+
 
 module.exports = {
     createUser,

@@ -13,7 +13,8 @@ table {
 }
 
 th,
-td {
+thead,
+td ,tbody{
   border: 1px solid;
   color: black;
   border-collapse: collapse;
@@ -26,7 +27,7 @@ td {
 
 table,
 tr,
-td {
+td, thead,tbody{
   text-align: center;
 }
 
